@@ -1,24 +1,3 @@
-****This directory's layout****
-
-This file contains 
-a documentation 
-a code folder
-technical_report.pdf
-a presentation pdf
-READ_ME.txt
-
-
-Delivered File formats
-
-I do not use .docx or .pptx file formats because they do not run correctly on my libreoffice. 
-Therefore the technical report document is a bespoke .odt file. It contains hyperlinked contents, just as the example technical_report.docx file did
-The presentation is a web hosted format called reveal. I have included a PDF of what the file looks like, however when the project is presented it will be delivered through a browser (because the transitions are desirable to the author). You can see the presentation at http://slides.com/quadrophobiac/ncipresentation
-
-Dir Code contains the database files, the project files and the deprecated code produced during the construction of this project.
-Dir Documentation contains Appendix Materials, Artefacts, and Test Reports. These files supplement the submitted technical report
-
-In the code folder you will find the resources necessary to run this project. Installation instructions within the READ_ME.txt
-
 ****Installation****
 
 A MySQL database is required to run this project. The files requisite to this can be located in
