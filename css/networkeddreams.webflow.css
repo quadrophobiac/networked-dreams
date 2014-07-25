@@ -1,0 +1,367 @@
+body {
+  background-image: url('../images/fond_composite.png');
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+h1 {
+  display: block;
+  margin: 20px auto 10px;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+}
+h2 {
+  display: block;
+  margin: 20px auto 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #fff8f7;
+  color: #403e3e;
+}
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: #59504a;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.menu {
+  display: block;
+  width: 50%;
+  height: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.dream_selector {
+  display: inline-block;
+  width: 250px;
+  height: 35px;
+  margin-right: 20px;
+  margin-bottom: -1px;
+  float: none;
+  clear: none;
+  background-color: #fff8f7;
+  font-size: 14px;
+}
+.choose_cat_button {
+  display: inline;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  float: none;
+  background-color: #59504a;
+}
+.dream_selector_label {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.selector_box {
+  display: block;
+  margin-right: 120px;
+  margin-left: 120px;
+  padding-left: 0px;
+}
+.returned_data {
+  background-color: #fff8f7;
+}
+.compare_night_day {
+  background-color: #a1807c;
+}
+
+#filter {
+  pointer-events: none;
+  opacity : 0.5;
+}
+
+.show_filters {
+    pointer-events: none;
+  border-radius: 2px;
+  background-color: #a1807c;
+  box-shadow: black 0px 0px 8px 0px;
+}
+.profile-body {
+  background-color: #d9c3b3;
+  background-image: none;
+  background-position: 0% 0%;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
+
+.settings-col {
+  margin-top: 15px;
+  padding-left: 100px;
+}
+.dream-data-col {
+  margin-top: 15px;
+  padding-right: 100px;
+}
+.mmbr-card {
+  box-shadow: rgba(87, 82, 79, 0.4) 1px 1px 5px 0px, rgba(87, 82, 79, 0.4) -1px 1px 5px 0px;
+
+}
+
+
+.navbar {
+  background-color: #a1807c;
+}
+.navbar_loggedin {
+  background-color: #ffebdf;
+}
+.admin_heading {
+  margin-top: 0px;
+  background-color: #ffebdf;
+}
+.demographic_button {
+  border-radius: 8px;
+  background-color: #59504a;
+}
+.entry-form { /*for data entry form*/
+  display: block;
+  width: 400px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.index-entry-form { /* for index log in*/
+  width: 50%;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.entry-button {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #59504a;
+}
+
+.entry-button-1 {
+  display: block;
+
+  background-color: #59504a;
+}
+
+/* user suggestions fields*/
+
+#suggestion {
+      display: none;
+}
+#suggestion-prompt {
+      display: none;
+}
+
+#free-time {
+      display: none;
+}
+#no-free-time {
+      display: none;
+}
+
+.dream-entry-div {
+  display: block;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.new-user-header {
+  height: 150px;
+  margin-bottom: 0px;
+  float: none;
+}
+.new-user-form {
+  display: block;
+  width: 280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 6px;
+  opacity: 1;
+}
+.sign-up-header {
+  padding-top: 65px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.complete-reg-div {
+  display: block;
+  width: 450px;
+  margin-right: auto;
+  margin-bottom: -1px;
+  margin-left: auto;
+}
+.radio-left {
+  width: 100px;
+  margin-right: 20px;
+  float: left;
+}
+.radio-right {
+  width: 100px;
+  margin-right: 150px;
+  padding-left: 0px;
+  float: left;
+}
+.complete-reg-label {
+  padding-top: 0px;
+  padding-left: 0px;
+  float: left;
+}
+.link {
+  background-color: #8c0e0e;
+}
+.date-from {
+  width: 45%;
+}
+.date-to {
+  width: 45%;
+  margin-top: -48px;
+  float: right;
+}
+.month {
+  width: 33%;
+  margin-left: 20px;
+}
+.date-numerical {
+  width: 20%;
+  margin-top: -47px;
+  margin-right: 35px;
+  float: right;
+}
+.date-year {
+  width: 20%;
+  margin-top: -47px;
+  float: right;
+}
+
+
+@media (max-width: 991px) {
+      .settings-col {
+    padding-left: 20px;
+  }
+  .dream-data-col {
+    padding-right: 20px;
+  }
+    
+    
+}
+@media (max-width: 767px) {
+    
+  .index-entry-form { /* for index log in*/
+      width: 80%;
+  }
+  
+  .settings-col {
+    padding-left: 10px;
+  }
+  .dream-data-col {
+    margin-top: 5px;
+    padding-right: 10px;
+  }
+    
+}
+@media (max-width: 479px) { /*responsive*/
+    body {
+        background-image: url('../images/fond_mobile.png');
+    }
+
+    h2 {
+
+        font-size: 22px;
+
+    }
+    
+    .new-user-form {
+        display: block;
+        width: 80%;
+    }
+
+    
+  h3 {
+    font-size: 19px;
+    text-align: center;
+  }
+  .entry-form {
+    width: 300px;
+  }
+  .dream-entry-div {
+    width: 300px;
+  }
+  .sign-up-header {
+    padding-top: 72px;
+  }
+  .complete-reg-div {
+    width: 300px;
+  }
+  .radio-left {
+    margin-right: 20px;
+    margin-left: 30px;
+  }
+  .radio-right {
+    margin-top: -24px;
+    margin-right: 45px;
+    margin-left: 30px;
+    padding-left: 20px;
+    float: right;
+  }
+  .month {
+    margin-left: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .date-numerical {
+    width: 22%;
+    margin-top: -47px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-right: 0px;
+    padding-left: 5px;
+  }
+  
+    .index-entry-form {
+      width: 100%;
+    }
+  
+}
